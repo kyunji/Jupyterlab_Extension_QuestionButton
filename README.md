@@ -2,7 +2,10 @@
 
 [![Github Actions Status](https://github.com/kyunji/Jupyterlab_Extension_QuestionButton.git/workflows/Build/badge.svg)](https://github.com/kyunji/Jupyterlab_Extension_QuestionButton.git/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kyunji/Jupyterlab_Extension_QuestionButton.git/main?urlpath=lab)
 
-It is a tool bar button that can transmit questions to url.
+## Description
+
+It is a tool bar button that can transmit questions to url.</br>
+Using this button, dialog appears. Write what you want to ask on the dialog and url to send the question, and press the OK button. The question content will be sent to the specified url.
 
 
 
