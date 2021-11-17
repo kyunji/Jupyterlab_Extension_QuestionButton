@@ -16,6 +16,7 @@ import {
 
 import { InputDialog} from '@jupyterlab/apputils';
 
+
 let url_value:any;
 let question_value:any;
 /**
@@ -45,9 +46,8 @@ export class ButtonExtension
     context: DocumentRegistry.IContext<INotebookModel>
   ): IDisposable {
     const Question_Button = () => {
-      //NotebookActions.clearAllOutputs(panel.content);
       InputDialog.getText({
-        title:'제출 URL 작성',
+        title:'Enter Url',
       }).then(url =>{
         if(url.button.accept){
           url_value=url.value;
@@ -55,13 +55,28 @@ export class ButtonExtension
         }
       })
       InputDialog.getText({
-        title:'질문할 내용',
+        title:'Write down what you want to ask.',
       }).then(question =>{
         if(question.button.accept){
           question_value=question.value;
         }
-      })
-      console.log(url_value + question_value);
+        console.log(url_value , question_value);
+        fetch("http://localhost:3000/test", {
+          method: "post",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            title: "Question",
+            url: url_value,
+            question:question_value
+          }),
+        }).then((response)=>response.json())   
+          .then((res)=>console.log(res))
+
+      });
+
+      
     };
     
     const button = new ToolbarButton({
