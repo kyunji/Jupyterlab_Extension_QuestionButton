@@ -5,10 +5,18 @@
 ## Description
 
 It is a tool bar button that can transmit questions to url.</br>
-Using this button, dialog appears. Write what you want to ask on the dialog and url to send the question, and press the OK button. The question content will be sent to the specified url.
+Using this button, dialog appears. Write what you want to ask on the dialog and url to send the question, and press the OK button. The question content will be sent to the specified url. </br>
 
-<img width="80%" src="https://user-images.githubusercontent.com/75000923/142144688-58090562-d9f5-4679-a722-9b1d22864417.PNG"/>
+1. This is the screen of the jupyter lab. There is a "Question" button in the top tool bar. </br>
+<img width="80%" src="https://user-images.githubusercontent.com/75000923/142144688-58090562-d9f5-4679-a722-9b1d22864417.PNG"/> </br>
 
+2. This is the first dialog that appears when you click the "Question" button. It's a dialog that inputs url to send questions to. </br>
+<img width="80%" src="https://user-images.githubusercontent.com/75000923/142145035-c94a12e1-a73a-4c56-b86a-1490fea1e243.PNG"/> </br>
+
+3. This is the second dialog that appears when you click the "Question" button. This is a dialog that writes questions. </br>
+<img width="80%" src="https://user-images.githubusercontent.com/75000923/142145129-304ba8f6-0d33-4de6-ac2a-2661d5291987.PNG"/> </br>
+
+4. When you enter the content in the two dialogs, the content is sent using a simple backend server. It will be sent in json format. </br>
 
 ## Requirements
 
