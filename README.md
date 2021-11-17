@@ -7,6 +7,7 @@
 It is a tool bar button that can transmit questions to url.</br>
 Using this button, dialog appears. Write what you want to ask on the dialog and url to send the question, and press the OK button. The question content will be sent to the specified url.
 
+<img width="80%" src="https://user-images.githubusercontent.com/75000923/142144688-58090562-d9f5-4679-a722-9b1d22864417.PNG"/>
 
 
 ## Requirements
