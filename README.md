@@ -22,6 +22,8 @@ It is a function that allows you to ask questions immediately with url provided 
 ## Requirements
 
 * JupyterLab >= 3.0
+* Windows 10
+* Chrome Browser
 
 ## Install
 
