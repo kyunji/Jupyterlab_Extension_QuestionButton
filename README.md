@@ -7,6 +7,7 @@
 It is a tool bar button that can transmit questions to url.</br>
 Using this button, dialogs appear. Write what you want to ask on the dialog and url to send the question, and press the OK button. The question content will be sent to the specified url. </br>
 It is a function that allows you to ask questions immediately with url provided in advance on the jupyter notebook without using any other means. </br>
+Open this extension code to github as an open source. Developers can expand and develop indefinitely. </br>
 
 1. This is the screen of the jupyter lab. There is a "Question" button in the top tool bar. </br>
 <img width="80%" src="https://user-images.githubusercontent.com/75000923/142144688-58090562-d9f5-4679-a722-9b1d22864417.PNG"/> </br>
