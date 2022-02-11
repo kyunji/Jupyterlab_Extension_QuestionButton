@@ -3,6 +3,10 @@
 [![Github Actions Status](https://github.com/kyunji/Jupyterlab_Extension_QuestionButton.git/workflows/Build/badge.svg)](https://github.com/kyunji/Jupyterlab_Extension_QuestionButton.git/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kyunji/Jupyterlab_Extension_QuestionButton.git/main?urlpath=lab)
 
 ## Description
+이 기능은 url로 질문을 전송할 수 있는 도구 모음 버튼입니다.</br>
+이 단추를 사용하면 대화 상자가 나타납니다. 대화 상자 및 URL에 질문할 내용을 입력하고 확인 버튼을 누릅니다. 질문 내용이 지정된 URL로 전송됩니다. </br>
+다른 수단을 사용하지 않고 미리 주피터 노트북에 제공된 url로 바로 질문할 수 있는 기능입니다. </br>
+이 프로젝트를 통해 개발한 코드는 오픈소스로 전 세계에 공개합니다. 관심이 있는 개발자는 이 프로젝트를 바탕으로 무한 확장 및 개발이 가능합니다. </br>
 
 It is a tool bar button that can transmit questions to url.</br>
 Using this button, dialogs appear. Write what you want to ask on the dialog and url to send the question, and press the OK button. The question content will be sent to the specified url. </br>
